@@ -18,7 +18,7 @@ self.addEventListener('install', (e) => {
 });
 
 self.addEventListener('activate', (e) => {
-  console.log('sw.js -> New SW Activate event');
+  console.log('sw.js -> Activate event');
   let activatePromise = new Promise(resolve => {
     //you would do activate tasks as well
     //simulating waiting for something by using a setTimeout:
